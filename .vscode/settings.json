@@ -2,6 +2,7 @@
 {
   "files.exclude": {
     "node_modules": true,
+    ".github",
     ".gitignore": true,
     "p5.global-mode.d.ts": true,
     "package-lock.json": true,
