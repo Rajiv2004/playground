@@ -51,6 +51,7 @@ Je hebt nu in jouw branch in de omgeving van GitPod een wijziging aangebracht. J
 - [ ] Los evt. conflicten op.
 - [ ] Push de nieuwe commit(s) van de master naar GitHub.
 
+### Bijna klaar
 Je hebt je issue verwerkt, gefeliciteerd! Nu nog even de administratie bijwerken:
 - [ ] Ga in GitHub naar issues en kies het issue dat je opgelost hebt. Zet rechts het issues onder projects in 'Done'.
 - [ ] Kies onderaan de pagina "Close issue".
