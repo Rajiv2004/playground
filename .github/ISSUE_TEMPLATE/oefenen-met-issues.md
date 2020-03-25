@@ -31,7 +31,7 @@ Je GitHub-repository heeft ook [planborden](https://github.com/informatica-emmau
 
 Nu we weten wie dit issue gaat oppakken en het In Progress hebben gezet, wordt het tijd om de code aan te passen zodat we het issue 'oplossen'. Laten we er vanuit gaan dat dit issue opgelost is als je je naam in het scherm van de game hebt gezet.
 
-Omdat we met meerdere mensen tegelijkertijd aan de code willen kunnen werken, maken we in GitHub een eigen branch aan. Dit geeft ons de mogelijkheid om zonder door anderen gestoord te worden onze eigen wijzigingen aan te brengen. Als we de uiteindelijke oplossing voor dit issue hebben geprogrammeerd, kunnen we onze branch gaan samenvoegen (dit heet mergen) met het grote geheel.  
+Omdat je met meerdere mensen tegelijkertijd aan de code wilt kunnen werken, maak je in GitHub een eigen branch aan. Dit geeft je de mogelijkheid om zonder door anderen gestoord te worden onze eigen wijzigingen aan te brengen. Als je de uiteindelijke oplossing voor dit issue hebben geprogrammeerd, kun je je branch gaan samenvoegen (dit heet mergen) met het grote geheel.  
 - [ ] Ga naar de [code](https://github.com/informatica-emmauscollege/playground) van het repository en maak daar een nieuwe branch aan. Geef de branch dezelfde naam als de titel van het bijbehorende issue (nu dus "[[je naam]] oefent met GitHub").
 
 We hebben een eigen branch aangemaakt en gaan nu naar een programmeeromgeving om de code van de game aan te passen. Wij gebruiken hiervoor [GitPod.io](http://gitpod.io) .
@@ -40,5 +40,19 @@ We hebben een eigen branch aangemaakt en gaan nu naar een programmeeromgeving om
 - [ ] Zorg dat je in de workspace zit van dit playground repository.
 - [ ] Klik links onderin op 'master' en kies vervolgens de branch die je zojuist op github hebt aangemaakt.
 - [ ] Ga naar de file 'script.js' en voeg ook jouw naam toe op de plek waar de achtergrond getekend wordt.
-- [x] Kies in GitPod File -> Save All
-- [ ] 
+- [ ] Kies in GitPod File -> Save All.
+- [ ] Controleer met preview of het commando python3 http.server -m 3000 of je wijziging goed is. Zo niet, blijf programmeren, opslaan en controleren.
+- [ ] Kies in de linkerkolom de optie *Source control: Git* en commit het gewijzigde bestand. Geef de commit een duidelijke beschrijving.
+
+Je hebt nu in jouw branch in de omgeving van GitPod een wijziging aangebracht. Je gaat nu jouw branch op GitHub 'updaten'. Dit heet *pushen*.
+- [ ] Links onderin, naast de naam van je branch, zie je een refresh knop. Druk hierop. Jouw commits worden nu naar je branch in GitHub gepusht.
+- [ ] Kies nu de branch master en refresh deze indien nodig (dan staan er pijltjes met getallen bij).
+- [ ] Ga opnieuw in de linkerkolom naar de optie *Source control: Git*, klik op de ... knop en kies 'Merge'. Kies vervolgens jouw eigen branch om die in te voegen in de master.
+- [ ] Los evt. conflicten op.
+- [ ] Push de nieuwe commit(s) van de master naar GitHub.
+
+Je hebt je issue verwerkt, gefeliciteerd! Nu nog even de administratie bijwerken:
+- [ ] Ga in GitHub naar issues en kies het issue dat je opgelost hebt. Zet rechts het issues onder projects in 'Done'.
+- [ ] Kies onderaan de pagina "Close issue".
+
+Geniet van je game en ga verder met het volgende issue 😄
