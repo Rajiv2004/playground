@@ -2,7 +2,7 @@
 {
   "files.exclude": {
     ".gitignore": true,
-    "global.d.ts": true,
+    "p5.global-mode.d.ts": true,
     ".git": true
   }
 }
