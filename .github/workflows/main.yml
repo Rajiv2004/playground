@@ -1,6 +1,6 @@
 name: Sync labels
 on:
-  fork
+  push
 jobs:
   build:
     runs-on: ubuntu-latest
