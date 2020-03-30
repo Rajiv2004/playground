@@ -19,3 +19,6 @@
 - color: 0075ca
   name: verslag
   description: Verbeteringen of toevoegingen aan het verslag.
+  - color: 4575ca
+  name: test
+  description: test.
